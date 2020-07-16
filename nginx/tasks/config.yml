@@ -4,4 +4,6 @@
   template: 
     src: wagtail.conf.j2
     dest: /etc/nginx/sites-enabled/{{project_name}}.conf
+  become: true
   notify: restart nginx
+

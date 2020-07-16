@@ -4,3 +4,4 @@
   apt: 
     name: nginx
     state: present
+  become: true

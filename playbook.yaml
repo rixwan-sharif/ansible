@@ -2,14 +2,6 @@
 - hosts: localhost
   vars_files:
     - variables.yml
-  # vars:
-    # project_dir: /home/ubuntu/wagtail_cms
-    # project_name: wagtail_cms
-    # root_dir: /home/ubuntu
-    # mysql_root_password: admin
-    # mysql_db: wagtaildb
-  # roles:
-  #   - maria-db
   
   tasks:
     - name: Install and Setup MariaDB

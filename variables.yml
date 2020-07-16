@@ -21,12 +21,12 @@ repo: deb [arch=amd64,arm64,ppc64el] http://ftp.utexas.edu/mariadb/repo/10.3/ubu
 git_repo: https://github.com/rixwan-sharif/wagtail
 git_branch: master
 
-superuser_username: jackiee
-superuser_email: jack@mail.com
+superuser_username: mark
+superuser_email: mark@mail.com
 superuser_password: hortonworks111
 
 
 # nginx role vars
 
 server_port: 80
-server_name: 3.232.108.40
+server_name: 3.230.172.204    #localhost
