@@ -1,0 +1,9 @@
+---
+- hosts: localhost
+  vars:
+    project_dir: /home/ubuntu/wagtail_cms
+    project_name: wagtail_cms
+    root_dir: /home/ubuntu
+    mysql_root_password: admin
+  roles:
+    - maria-db

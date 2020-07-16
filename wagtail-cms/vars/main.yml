@@ -1,0 +1,14 @@
+---
+# vars file for wagtail-cms
+
+
+git_repo: https://github.com/rixwan-sharif/ansible
+git_branch: master
+project_dir: /home/ubuntu/wagtail_cms
+project_name: wagtail_cms
+root_dir: /home/ubuntu
+mysql_db: wagtaildb
+mysql_root_password: admin
+superuser_username: jackie
+superuser_email: jack@mail.com
+superuser_password: hortonworks111

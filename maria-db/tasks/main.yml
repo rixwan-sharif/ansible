@@ -1,0 +1,14 @@
+---
+# tasks file for maria-db
+
+- name: Install dependencies
+  include_tasks: dependencies.yml
+
+- name: add offical maria-db repository
+  include_tasks: add-repository.yml
+
+- name: Install and run maria-db
+  include_tasks: install.yml
+
+- name: config maria-db - set root password and create database
+  include_tasks: config.yml

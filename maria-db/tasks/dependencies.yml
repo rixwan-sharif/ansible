@@ -1,0 +1,7 @@
+---
+
+- name: Install Utility software
+  apt: name={{item}} state=latest
+  with_items:
+    - software-properties-common
+    - python-mysqldb
