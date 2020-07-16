@@ -3,9 +3,9 @@
   vars_files:
     - variables.yml
   roles:
-    - maria-db
-    - wagtail-cms
-    - nginx
+    - { role: maria-db, become: true } 
+    - { role: wagtail-cms }
+    - { role: nginx, become: true }
   
   # tasks:
   #   - name: Install and Setup MariaDB
