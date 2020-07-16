@@ -9,4 +9,3 @@
     - virtualenv
     - libmysqlclient-dev
     - supervisor
-  become: true

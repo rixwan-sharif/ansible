@@ -3,6 +3,8 @@
 
 - name: Install Nginx
   include_tasks: install.yml
+  become: true
 
 - name: config Nginx
   include_tasks: config.yml
+  become: true

@@ -2,18 +2,22 @@
 - hosts: localhost
   vars_files:
     - variables.yml
+  roles:
+    - maria-db
+    - wagtail-cms
+    - nginx
   
-  tasks:
-    - name: Install and Setup MariaDB
-      include_role:
-        name: maria-db
-      become: true
+  # tasks:
+  #   - name: Install and Setup MariaDB
+  #     include_role:
+  #       name: maria-db
+  #     become: true
 
-    - name: Setup Wagtail CMS
-      include_role:
-        name: wagtail-cms
+  #   - name: Setup Wagtail CMS
+  #     include_role:
+  #       name: wagtail-cms
 
-    - name: Install and Setup Nginx 
-      include_role:
-        name: nginx
-      become: true
+  #   - name: Install and Setup Nginx 
+  #     include_role:
+  #       name: nginx
+  #     become: true
