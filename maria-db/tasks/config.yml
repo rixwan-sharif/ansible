@@ -5,7 +5,7 @@
 
 - name: Create myapp database 
   mysql_db: 
-    name: "{{db_name}}"  
+    name: "{{mysql_db}}"  
     login_user: root 
     login_password: "{{mysql_root_password}}" 
     login_host: localhost 
