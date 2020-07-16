@@ -2,7 +2,7 @@
 # vars file for wagtail-cms
 
 
-git_repo: https://github.com/rixwan-sharif/ansible
+git_repo: https://github.com/rixwan-sharif/wagtail
 git_branch: master
 project_dir: /home/ubuntu/wagtail_cms
 project_name: wagtail_cms
