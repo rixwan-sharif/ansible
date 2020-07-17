@@ -29,4 +29,4 @@ superuser_password: hortonworks111
 # nginx role vars
 
 server_port: 80
-server_name: 3.230.172.204    #localhost
+server_name: 100.24.107.169   #localhost
