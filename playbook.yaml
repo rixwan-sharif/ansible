@@ -7,17 +7,3 @@
     - { role: wagtail-cms }
     - { role: nginx, become: true }
   
-  # tasks:
-  #   - name: Install and Setup MariaDB
-  #     include_role:
-  #       name: maria-db
-  #     become: true
-
-  #   - name: Setup Wagtail CMS
-  #     include_role:
-  #       name: wagtail-cms
-
-  #   - name: Install and Setup Nginx 
-  #     include_role:
-  #       name: nginx
-  #     become: true
